@@ -236,6 +236,7 @@ def get_trained_model(industry_name):
 # ==========================================
 def main():
     # Sidebar
+    st.write("Initializing NoMoreMehta.AI Engine...")
     st.sidebar.title("🛡️ NoMoreMehta.AI")
     st.sidebar.caption("The Algorithmic Auditor (v10.0)")
     
